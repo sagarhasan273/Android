@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".BMI">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BMI Calculator"
+        android:textSize="40sp"
+        android:gravity="center"
+        />
+
+    <EditText
+        android:id="@+id/heightID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Height"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:layout_marginTop="40sp"
+        android:layout_marginBottom="20sp"
+        />
+    <EditText
+        android:id="@+id/weightID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Weight"
+        android:layout_marginTop="20sp"
+        android:layout_marginBottom="40sp"
+        android:gravity="center"
+        android:textSize="40sp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculate"
+        android:textSize="40sp"
+        android:onClick="calculateBMI"
+        android:layout_marginBottom="20sp"/>
+
+    <TextView
+        android:id="@+id/bmiOutput"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Output:"
+        android:textSize="50sp"
+        android:layout_marginBottom="40sp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Home"
+        android:onClick="homePage"
+        android:textSize="40sp"/>
+</LinearLayout>
