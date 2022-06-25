@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Android_Project</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="country_array">
+        <item>Choose Course</item>
+        <item>Pervasive Computing</item>
+        <item>Pervasive Computing Lab</item>
+        <item>Software Engineering</item>
+    </string-array>
+</resources>
